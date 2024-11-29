@@ -13,6 +13,7 @@ static struct {
     char value[MAX_VALUE_SIZE];
 } nvram_store[MAX_NVRAM_SIZE];
 
+//GLOBALS
 static int initialized = 0;
 
 int nvram_init(void) {
