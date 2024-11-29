@@ -13,8 +13,10 @@ static struct {
     char value[MAX_VALUE_SIZE];
 } nvram_store[MAX_NVRAM_SIZE];
 
+//GLOBALS
 static int initialized = 0;
 
+//APIS
 int nvram_init(void) {
     if (initialized) {
         printf("NVRAM already initialized.\n");
