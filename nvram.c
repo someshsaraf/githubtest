@@ -16,6 +16,7 @@ static struct {
 //GLOBALS
 static int initialized = 0;
 
+//APIS
 int nvram_init(void) {
     if (initialized) {
         printf("NVRAM already initialized.\n");
